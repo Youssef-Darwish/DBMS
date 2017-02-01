@@ -1,0 +1,225 @@
+<<<<<<< HEAD
+[DEBUG] 2016-12-16 02:43:44.829 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 02:43:44.937 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 02:43:44.954 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 02:43:44.957 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 02:43:44.958 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 02:43:44.959 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 02:45:41.352 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 02:45:41.476 [main] Log4j - connection established 
+[ERROR] 2016-12-16 02:45:41.488 [main] Log4j - Query does not return ResultSet Object 
+[DEBUG] 2016-12-16 02:45:41.502 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 02:48:13.787 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 02:48:13.918 [main] Log4j - connection established 
+[ERROR] 2016-12-16 02:48:13.929 [main] Log4j - ExecuteUpdate cannot perform select query.Use execute instead 
+[DEBUG] 2016-12-16 02:48:13.936 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 13:04:44.599 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 13:04:44.827 [main] Log4j - connection established 
+[DEBUG] 2016-12-16 13:04:44.860 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 13:04:44.863 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 13:04:44.865 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 13:04:44.866 [main] Log4j - connection established 
+=======
+[DEBUG] 2016-12-16 14:34:27.341 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:34:27.347 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:34:27.352 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:34:27.357 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-16 14:38:12.802 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:38:12.806 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:38:12.808 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:38:12.810 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:38:12.814 [main] Log4j - Statement is closed.Cannot perform operations 
+[ERROR] 2016-12-16 14:44:35.043 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:44:35.189 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:44:35.191 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:44:35.192 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:44:35.194 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:45:24.216 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:45:24.365 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:45:24.373 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:45:24.374 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:45:24.376 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:46:56.644 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:46:56.763 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:46:56.766 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:46:56.767 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:46:56.769 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:51:04.983 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:51:05.165 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:51:05.169 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:51:05.170 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:51:05.173 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-16 14:51:05.182 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:51:05.187 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:51:05.191 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:51:05.208 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:51:05.788 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:51:05.933 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:51:05.936 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:51:05.937 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:51:05.940 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-16 14:51:05.942 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:51:05.945 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:51:05.946 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:51:05.947 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:55:50.206 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:55:50.355 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:55:50.359 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:55:50.371 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:55:50.373 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:57:11.499 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:57:11.627 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:57:11.630 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:57:11.632 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:57:11.634 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:58:05.051 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:58:05.175 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:58:05.177 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:58:05.179 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:58:05.181 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:58:30.872 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:58:30.994 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:58:30.996 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:58:30.997 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:58:30.999 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:59:01.959 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:59:02.086 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:59:02.090 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:59:02.092 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:59:02.094 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 14:59:25.225 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 14:59:25.346 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 14:59:25.349 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 14:59:25.350 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 14:59:25.352 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 15:16:53.941 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-16 15:16:54.092 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 15:16:54.094 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 15:16:54.102 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 15:16:54.104 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-16 15:19:18.895 [main] Log4j - Statement is closed.Cannot perform operations 
+[ERROR] 2016-12-16 15:19:19.026 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-16 15:19:19.034 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-16 15:19:19.036 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-16 15:19:19.037 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-16 15:19:19.038 [main] Log4j - statement executed :delete from students 
+>>>>>>> stash
+[ERROR] 2016-12-17 21:12:52.189 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:12:52.252 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:12:52.275 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:12:52.282 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:12:52.293 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:12:52.298 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:16:51.228 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:16:51.240 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:16:51.247 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:16:51.255 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:16:51.261 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:16:51.265 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:17:39.326 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:17:39.338 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:17:39.441 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:17:39.452 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:17:39.468 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:17:39.479 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:18:36.893 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:18:36.915 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:18:36.941 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:18:36.947 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:18:36.952 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:18:36.963 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:20:07.134 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:20:07.151 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:20:07.160 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:20:07.165 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:20:07.169 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:20:07.177 [main] Log4j - Error in saving file! 
+[ERROR] 2016-12-17 21:38:04.765 [main] Log4j - Statement is closed.Cannot perform operations 
+[ERROR] 2016-12-17 21:38:04.915 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 21:38:05.010 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 21:38:05.016 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 21:38:05.023 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 21:38:05.036 [main] Log4j - statement executed :delete from students 
+[ERROR] 2016-12-17 22:55:25.571 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 22:55:25.708 [main] Log4j - Valid Query1 rows modified 
+[ERROR] 2016-12-17 22:55:25.708 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 22:55:25.729 [main] Log4j - Valid Query1 rows modified 
+[DEBUG] 2016-12-17 22:55:25.763 [main] Log4j - Valid Query1 rows modified 
+[DEBUG] 2016-12-17 22:55:25.775 [main] Log4j - Valid Query1 rows modified 
+[DEBUG] 2016-12-17 22:55:25.795 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 22:55:25.800 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 22:55:25.803 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 22:55:25.810 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 22:55:25.825 [main] Log4j - Valid Query1 rows modified 
+[ERROR] 2016-12-17 22:56:24.727 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 22:56:24.856 [main] Log4j - Valid Query ....1 rows modified 
+[ERROR] 2016-12-17 22:56:24.856 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 22:56:24.873 [main] Log4j - Valid Query ....1 rows modified 
+[DEBUG] 2016-12-17 22:56:24.907 [main] Log4j - Valid Query ....1 rows modified 
+[DEBUG] 2016-12-17 22:56:24.913 [main] Log4j - Valid Query ....1 rows modified 
+[DEBUG] 2016-12-17 22:56:24.931 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 22:56:24.936 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 22:56:24.940 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 22:56:24.953 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 22:56:24.995 [main] Log4j - Valid Query ....1 rows modified 
+[ERROR] 2016-12-17 23:10:49.465 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 23:10:49.592 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:10:49.592 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 23:10:49.615 [main] Log4j - Valid Query ....1 row(s) modified 
+[DEBUG] 2016-12-17 23:10:49.708 [main] Log4j - Valid Query ....1 row(s) modified 
+[DEBUG] 2016-12-17 23:10:49.716 [main] Log4j - Valid Query ....1 row(s) modified 
+[DEBUG] 2016-12-17 23:10:49.743 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 23:10:49.846 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 23:10:49.885 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 23:10:49.929 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 23:10:49.941 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:12:20.827 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 23:12:20.960 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:12:20.960 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 23:12:20.981 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:12:21.006 [main] Log4j - cannot execute query 
+[DEBUG] 2016-12-17 23:12:21.019 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 23:12:21.024 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 23:12:21.027 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 23:12:21.030 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 23:12:21.042 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:12:41.908 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 23:12:42.035 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:12:42.035 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 23:12:42.056 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:12:42.077 [main] Log4j - cannot execute query 
+[DEBUG] 2016-12-17 23:12:42.098 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 23:12:42.126 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 23:12:42.144 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 23:12:42.153 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 23:12:42.169 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:13:58.513 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 23:13:58.625 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:13:58.625 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 23:13:58.643 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:13:58.666 [main] Log4j - cannot execute query 
+[DEBUG] 2016-12-17 23:13:58.676 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 23:13:58.680 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 23:13:58.683 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 23:13:58.686 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 23:13:58.699 [main] Log4j - Valid Query ....1 row(s) modified 
+[ERROR] 2016-12-17 23:18:04.053 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2016-12-17 23:18:04.167 [main] Log4j - 1 row(s) modified 
+[ERROR] 2016-12-17 23:18:04.167 [main] Log4j - Use execute instead 
+[DEBUG] 2016-12-17 23:18:04.184 [main] Log4j - 1 row(s) modified 
+[ERROR] 2016-12-17 23:18:04.204 [main] Log4j - cannot execute query 
+[DEBUG] 2016-12-17 23:18:04.215 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2016-12-17 23:18:04.220 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2016-12-17 23:18:04.224 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2016-12-17 23:18:04.228 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2016-12-17 23:18:04.244 [main] Log4j - 1 row(s) modified 
+[ERROR] 2017-01-24 15:24:37.280 [main] Log4j - Statement is closed.Cannot perform operations 
+[DEBUG] 2017-01-24 15:24:37.755 [main] Log4j - 1 row(s) modified 
+[ERROR] 2017-01-24 15:24:37.755 [main] Log4j - Use execute instead 
+[DEBUG] 2017-01-24 15:24:37.840 [main] Log4j - 1 row(s) modified 
+[ERROR] 2017-01-24 15:24:37.861 [main] Log4j - cannot execute query 
+[DEBUG] 2017-01-24 15:24:37.870 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud1' , 1 , '2011-01-25') 
+[DEBUG] 2017-01-24 15:24:37.875 [main] Log4j - statement executed :insert into students (Name , Id , Admission) values('stud2' , 2 , '2012-12-30') 
+[DEBUG] 2017-01-24 15:24:37.879 [main] Log4j - statement executed :select * from students 
+[DEBUG] 2017-01-24 15:24:37.884 [main] Log4j - statement executed :delete from students 
+[DEBUG] 2017-01-24 15:24:37.897 [main] Log4j - 1 row(s) modified 
